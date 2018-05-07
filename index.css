@@ -1,0 +1,21 @@
+.centerme
+{
+	height: 500px;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+.centerme span
+{
+	display: block;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.centerme img
+{
+	height: 300px;
+	width: 250px;
+}
