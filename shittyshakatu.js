@@ -1,6 +1,6 @@
 var dicesize = 100000;
 var items = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
-var itemprices = [15000000000, 15000000000, 11399999296, 11399999296, 8999999680, 8999999680, 5999999936, 2934265808, 3124999968, 3124999968, 2375000048, 2375000048, 1874999952, 1874999952, 1250000016, 611305376, 1035141117, 1035141117, 0, 431308801, 431308801, 374999996, 374999996, 285000004, 285000004, 225000002, 225000002, 149999995, 73356646, 124999999, 124999999, 94999999, 94999999, 74999999, 74999999, 49999999, 27254730, 1600000, 3600000, 750000];
+var itemprices = [15000000000, 15000000000, 11399999296, 11399999296, 8999999680, 8999999680, 5999999936, 2934265808, 3124999968, 3124999968, 2375000048, 2375000048, 1874999952, 1874999952, 1250000016, 611305376, 1035141117, 1035141117, 0, 431308801, 431308801, 374999996, 374999996, 285000004, 285000004, 225000002, 225000002, 149999995, 73356646, 124999999, 124999999, 94999999, 94999999, 74999999, 74999999, 49999999, 27254730, 1600000, 3600000, 1500000];
 var numitems = 40;
 var lastChanged = -1;
 var boxesOpened = 0;
@@ -198,7 +198,8 @@ function updateDisplay()
 	// Last item dropped
 	document.getElementsByClassName("drop")[0].getElementsByTagName("p")[0].innerHTML = "Last Drop: " + itemname;
 	// Last item color change
-	tabledata[lastChanged].getElementsByTagName("p")[0].color = "#ff00ff";
+	tabledata[lastChanged].getElementsByTagName("p")[0].style.color = "#ff00ff";
+	tabledata[lastChanged].getElementsByTagName("p")[1].style.color = "#ff00ff";
 	// Update info
 	document.getElementsByClassName("drop")[0].getElementsByTagName("p")[1].innerHTML = "Total boxes opened: " + boxesOpened.toLocaleString('en');
 	document.getElementsByClassName("info")[0].getElementsByTagName("p")[0].innerHTML = "Money spent: $" + (boxesOpened*50000000).toLocaleString('en');
