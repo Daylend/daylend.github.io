@@ -10,8 +10,8 @@ function rollDice() {
 	boxesOpened = boxesOpened + loopAmount;
 	
 	// warning for large values
-	if(loopAmount>1000000000)
-		if(!confirm("Values greater than 1 billion will take a very long time. Are you sure?"))
+	if(loopAmount>100000000)
+		if(!confirm("Values greater than 100 million will take a very long time. Are you sure?"))
 			return
 	
 	for(i = 0; i < loopAmount; i++)
