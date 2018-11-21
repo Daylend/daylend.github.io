@@ -34,7 +34,7 @@ td
 }
 .bottom
 {
-	margin: 0 auto 2% auto;
+	margin: 0 auto 5% auto;
 	width: 30%;
 	height: 10%;
 }
@@ -48,9 +48,15 @@ td
 	height: 100%;
 	width: 80%;
 }
-.bottom>button
+.rollButton
 {
-	width: 100%;
+	width: 70%;
+	height: 100%;
+}
+.resetButton
+{
+	width: 20%;
+	min-width: 50px;
 	height: 100%;
 }
 .bottom>div

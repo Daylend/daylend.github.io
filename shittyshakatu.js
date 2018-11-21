@@ -203,7 +203,7 @@ function updateDisplay()
 	// Update info
 	document.getElementsByClassName("drop")[0].getElementsByTagName("p")[1].innerHTML = "Total boxes opened: " + boxesOpened.toLocaleString('en');
 	document.getElementsByClassName("info")[0].getElementsByTagName("p")[0].innerHTML = "Money spent: $" + (boxesOpened*50000000).toLocaleString('en');
-	document.getElementsByClassName("info")[0].getElementsByTagName("p")[1].innerHTML = "Loot value: $" + calcValue().toLocaleString('en');
+	document.getElementsByClassName("info")[0].getElementsByTagName("p")[1].innerHTML = "Marketplace value: $" + calcValue().toLocaleString('en');
 }
 
 function calcValue()
