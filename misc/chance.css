@@ -1,0 +1,50 @@
+*
+{
+	text-align: center;
+}
+body
+{
+	background-color: #444444;
+}
+p
+{
+	color: #dddddd;
+	font-family: 'Roboto', sans-serif;
+}
+footer
+{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+a:link, a:visited 
+{
+	color: grey;
+	text-decoration: none;
+}
+a:hover, a:active
+{
+	color: white;
+	text-decoration: none;
+}
+b
+{
+	color: lightblue;
+}
+img
+{
+	height: 200px;
+	width: 200px;
+	margin-bottom: 2%;
+	-webkit-animation:spin 0.5s linear 1;
+    -moz-animation:spin 0.5s linear 1;
+    animation:spin 0.5s linear 1;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+.calculator
+{
+	margin-top: 5%;
+}
