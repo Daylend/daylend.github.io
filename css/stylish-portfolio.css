@@ -46,6 +46,10 @@ h6 {
   color: rgba(255, 255, 255, 0.7);
 }
 
+.text-shadow {
+	text-shadow: 2px 2px #333333;
+}
+
 /* Map */
 .map {
   height: 30rem;
@@ -235,6 +239,10 @@ h6 {
   margin: auto auto 1rem;
 }
 
+.portfolio-item img{
+	object-fit: cover;
+}
+
 .portfolio-item .caption {
   display: flex;
   height: 100%;
@@ -249,6 +257,9 @@ h6 {
 .portfolio-item .caption .caption-content {
   color: #fff;
   margin: auto 2rem 2rem;
+  background-color: rgba(0,0,0,0.8);
+  color: #1985A1;
+  text-shadow: 2px 2px #000000;
 }
 
 .portfolio-item .caption .caption-content h2 {
@@ -285,6 +296,7 @@ h6 {
     transition: clip-path 0.25s ease-out, -webkit-clip-path 0.25s ease-out;
     -webkit-clip-path: inset(-1px);
     clip-path: inset(-1px);
+	object-fit: cover;
   }
   .portfolio-item:hover img {
     -webkit-clip-path: inset(2rem);
@@ -381,7 +393,7 @@ a:hover, a:focus, a:active {
   margin: auto;
   max-width: 530px;
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.8) 0px 20px 70px;
+  box-shadow: rgba(0, 0, 0, 0.8) 10px 20px 20px;
   clear: both;
   overflow: hidden;
   -webkit-transition: all 0.5s ease-out;
