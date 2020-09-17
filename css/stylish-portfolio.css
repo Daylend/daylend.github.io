@@ -19,7 +19,7 @@ body {
 }
 
 .content-section {
-  padding-top: 7.5rem;
+  padding-top: 3.5rem;
   padding-bottom: 7.5rem;
   background-color: #46494C;
 }
@@ -237,6 +237,7 @@ h6 {
   overflow: hidden;
   max-width: 530px;
   margin: auto auto 1rem;
+  box-shadow: rgba(0, 0, 0, 0.8) 10px 20px 20px;
 }
 
 .portfolio-item img{
@@ -256,7 +257,7 @@ h6 {
 
 .portfolio-item .caption .caption-content {
   color: #fff;
-  margin: auto 2rem 2rem;
+  margin: auto 0rem 0rem;
   background-color: rgba(0,0,0,0.8);
   color: #1985A1;
   text-shadow: 2px 2px #000000;
@@ -286,9 +287,9 @@ h6 {
   }
   .portfolio-item .caption .caption-content {
     transition: opacity 0.25s;
-    margin-left: 5rem;
+    margin-left: 0.5rem;
     margin-right: 5rem;
-    margin-bottom: 5rem;
+    margin-bottom: 0.5rem;
   }
   .portfolio-item img {
     transition: -webkit-clip-path 0.25s ease-out;
