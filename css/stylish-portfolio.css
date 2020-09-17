@@ -238,6 +238,7 @@ h6 {
   max-width: 530px;
   margin: auto auto 1rem;
   box-shadow: rgba(0, 0, 0, 0.8) 10px 20px 20px;
+  border-radius: 5px;
 }
 
 .portfolio-item img{
@@ -260,8 +261,9 @@ h6 {
   margin: auto 0rem 0rem;
   padding: 5px;
   background-color: rgba(0,0,0,0.8);
-  color: #1985A1;
+  color: #DCDCDD;
   text-shadow: 2px 2px #000000;
+  border-radius: 0.5rem;
 }
 
 .portfolio-item .caption .caption-content h2 {
