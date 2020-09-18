@@ -245,7 +245,7 @@ h6 {
 	object-fit: cover;
 }
 
-.portfolio-item .caption {
+.portfolio-item .caption, .portfolio-item .github-wrapper {
   display: flex;
   height: 100%;
   width: 100%;
@@ -256,6 +256,10 @@ h6 {
   z-index: 1;
 }
 
+.portfolio-item .github-wrapper{
+	opacity: 0;
+}
+
 .portfolio-item .caption .caption-content {
   color: #fff;
   margin: auto 0rem 0rem;
@@ -264,6 +268,14 @@ h6 {
   color: #DCDCDD;
   text-shadow: 2px 2px #000000;
   border-radius: 0.5rem;
+}
+
+.portfolio-item .github-wrapper .github-content {
+	color: #fff;
+	margin: auto 2rem 2rem;
+	padding: 5px;
+	background-color: rgba(0,0,0,0.8);
+	color: #DCDCDD;
 }
 
 .portfolio-item .caption .caption-content h2 {
@@ -282,11 +294,9 @@ h6 {
     margin: 0;
   }
   .portfolio-item .caption {
-    transition: background-color 0.7s, -webkit-clip-path 0.25s ease-out;
-    transition: clip-path 0.25s ease-out, background-color 0.7s;
-    transition: clip-path 0.25s ease-out, background-color 0.7s, -webkit-clip-path 0.25s ease-out;
-    -webkit-clip-path: inset(0px);
-    clip-path: inset(0px);
+    transition: background-color 0.7s;
+    transition: background-color 0.7s;
+    transition: background-color 0.7s;
   }
   .portfolio-item .caption .caption-content {
     transition: opacity 0.25s;
@@ -294,22 +304,18 @@ h6 {
     margin-right: 5rem;
     margin-bottom: 0.5rem;
   }
+  .portfolio-item .github-wrapper .github-content {
+	transition: opacity 0.25s;
+	margin-left: 5rem;
+	margin-right: 5rem;
+	margin-bottom: 5rem;
+  }
   .portfolio-item img {
-    transition: -webkit-clip-path 0.25s ease-out;
-    transition: clip-path 0.25s ease-out;
-    transition: clip-path 0.25s ease-out, -webkit-clip-path 0.25s ease-out;
-    -webkit-clip-path: inset(-1px);
-    clip-path: inset(-1px);
-	object-fit: cover;
   }
   .portfolio-item:hover img {
-    -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
     background-color: rgba(29, 128, 159, 0.9);
-    -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
   }
 }
 
