@@ -213,7 +213,6 @@ h6 {
   display: block;
   line-height: 7.5rem;
   font-size: 2.25rem;
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
 .callout {
@@ -237,7 +236,6 @@ h6 {
   overflow: hidden;
   max-width: 530px;
   margin: auto auto 1rem;
-  box-shadow: rgba(0, 0, 0, 0.8) 10px 20px 20px;
   border-radius: 5px;
 }
 
@@ -267,7 +265,7 @@ h6 {
   background-color: rgba(0,0,0,0.8);
   color: #DCDCDD;
   text-shadow: 2px 2px #000000;
-  border-radius: 0.5rem;
+  border-radius: 5px;
 }
 
 .portfolio-item .github-wrapper .github-content {
@@ -338,7 +336,6 @@ footer.footer .social-link {
   font-size: 1.5rem;
   background-color: #1D809F;
   transition: background-color 0.15s ease-in-out;
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
 footer.footer .social-link:hover {
@@ -381,7 +378,6 @@ a:hover, a:focus, a:active {
 }
 
 .btn {
-  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
   font-weight: 700;
 }
 
@@ -403,7 +399,6 @@ a:hover, a:focus, a:active {
   margin: auto;
   max-width: 530px;
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.8) 10px 20px 20px;
   clear: both;
   overflow: hidden;
   -webkit-transition: all 0.5s ease-out;
@@ -422,7 +417,6 @@ a:hover, a:focus, a:active {
   background-image: -webkit-linear-gradient(top, #e8e8e8, #bcbbbc);
   background-image: -moz-linear-gradient(top, #e8e8e8, #bcbbbc);
   background-image: linear-gradient(top, #e8e8e8, #bcbbbc);
-  box-shadow: inset rgba(255, 255, 255, 0.7) 0px 1px 1px;
   border-bottom: #6a6a6a 1px solid; }
 
 .console-body {
