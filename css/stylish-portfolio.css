@@ -21,7 +21,7 @@ body {
 .content-section {
   padding-top: 3.5rem;
   padding-bottom: 7.5rem;
-  background-color: #46494C;
+  background-color: #2E3033;
 }
 
 .content-section-heading h2 {
@@ -31,6 +31,7 @@ body {
 .content-section-heading h3 {
   font-size: 1rem;
   text-transform: uppercase;
+  color: #00B8F2;
 }
 
 h1,
@@ -98,7 +99,7 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background-color: rgb(25,133,161);
+  background-color: rgb(49, 140, 164);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -108,6 +109,7 @@ h6 {
   font-size: 4rem;
   margin: 0;
   padding: 0;
+  color: #0f1113;
 }
 
 @media (min-width: 992px) {
