@@ -269,6 +269,7 @@ h6 {
 }
 
 .portfolio-item .github-wrapper .github-content {
+	box-sizing: border-box;
 	color: #fff;
 	margin: auto 2rem 2rem;
 	padding: 5px;
